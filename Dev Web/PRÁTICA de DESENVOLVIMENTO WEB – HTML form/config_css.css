@@ -1,0 +1,81 @@
+#titulo{
+
+    margin: 1em auto;
+    width: 650px;
+    background-image: url(https://blog.luz.vc/wp-content/uploads/2018/12/como-montar-padaria.jpg);
+}
+
+#header {
+    
+    background: rgba(218, 204, 20, 0.6) ;
+
+}
+
+h1{
+    font-size: 24px;
+}
+
+#mainnav {
+    background: rgb(233, 213, 169);      
+}
+
+a{
+    margin: 0px 34px 0px 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contents{
+    float: left;
+    width: 440px;
+    background: rgb(236, 255, 153);
+    margin: 0 0 0 90px;
+}
+
+#footer{
+    clear: both;
+    background: rgba(242, 253, 94, 0.6);
+}
+
+*{
+    font-size: 18px;
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+}
+
+
+input{
+    border-radius: 8px;
+    
+}
+
+#salvar{
+    background-color: rgb(209, 182, 26);
+    border-radius: 8px;
+} 
+.caixa_de_dados {
+    border-radius: 8px;
+    color: black;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: black;
+}

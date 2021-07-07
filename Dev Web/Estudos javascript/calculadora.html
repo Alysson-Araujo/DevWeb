@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <input type="text" name="n1" id="n1">
+        <input type="text" name="n2" id="n2">
+        <button type="submit" id="calcularConta">Calcular</button>
+
+    </form>
+
+    <p id="resultado"></p>
+
+    <script>
+        function calcular() {
+
+            resposta.textContent = parseFloat(n1.value) + parseFloat(n2.value);
+            var x = parseInt("010",10)
+            console.log(x);
+
+            return false;
+        }
+        var n1 = document.getElementById("n1");
+        var n1 = document.getElementById("n2");
+        var botao = document.getElementById("calcularConta");
+        var resposta = document.getElementById("resultado")
+
+        botao.onclick = calcular;
+    </script>
+</body>
+
+</html>

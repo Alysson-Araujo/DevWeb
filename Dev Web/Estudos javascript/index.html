@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="texto">texto antigo html puro</p>
+
+    <button onclick="document.getElementById('texto').innerHTML = 'Novo texto usando javascript'">
+        alterar texto
+    </button>
+
+    <br>
+    <br>
+    <br>
+
+    <p>exemplo js para alterar atributos!</p>
+    <p>Exemplo de lâmpada acesa e apagada</p>
+
+    <button type="button" onclick="ligarLampada()"> ligar lampada</button>
+
+    <img id="lampada" src="lampada_apagada.png" alt="">
+
+    <button type="button" onclick="desligarLampada()">desligar Lampada</button>
+</body>
+
+<script>
+
+    function ligarLampada() {
+        document.getElementById('lampada').src = 'lampada_acesa.png';
+    }
+
+
+    function desligarLampada() { 
+        document.getElementById('lampada').src = 'lampada_apagada.png';
+    }
+
+
+</script>
+
+</html>

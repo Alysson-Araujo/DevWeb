@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+c
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="config_css.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="titulo">
+        <div id="header">
+            <h1>
+                Padaria seu toba
+            </h1>
+        </div>
+
+        <br>
+        <br>
+        <div id="mainnav">
+            <a href="cadastro.html"> cadastro</a>
+            <a href="leitura.html"> leitura </a>
+            <a href="atualizacao.html"> atualização</a>
+            <a href="exclusao.html"> exclusão</a>
+        </div>
+
+        <div id="contents">
+
+            <fieldset class="caixa_de_dados">
+                <form action="atualizacao.html" method="POST">
+                    <br>
+                    <label for="POST-Nome">Nome do produto</label>
+                    <br>
+                    <input id="POST-Nome" type="text" name="Nome">
+                    <br>
+                    <br>
+                    <label for="POST-valor">Valor</label>
+                    <br>
+                    <input id="POST-valor" type="number" name="Cidade">
+                    <br>
+                    <br>
+                    <label for="POST-quantidade">Quantidade</label>
+                    <br>
+                    <input id="POST-quantidade" type="number" name="Quantidade">
+                    <br>
+                    <br>
+                    <select class="opcoes" name="tipo_produto">
+                        <option value="Salgado"> Tipo de produto</option>
+                        <option value="Bolo">Bolo</option>
+                        <option value="Sobremesa">Sobremesa</option>
+                        <option value="Pão">Pão</option>
+                        <option value="Bebidas">Bebidas</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <button id="salvar" type="submit">Salvar</button>
+                    <br>
+                    <br>
+
+        </div>
+
+
+        </form>
+        </fieldset>
+        <br>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="footer">
+            Padaria seu toba© todos os direitos reservados
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
