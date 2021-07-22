@@ -25,7 +25,7 @@ import com.sun.istack.NotNull;
 
 @RestController
 public class FuncionarioController {
-
+/*
 	@Autowired
 	FuncionarioRepository funcionarioRepository;
 
@@ -69,65 +69,11 @@ public class FuncionarioController {
 
 	}
 
+*/
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 	@Autowired
 	FuncionarioRepository funcionarioRepository;
 
@@ -225,5 +171,5 @@ public class FuncionarioController {
 			return ResponseEntity.status(HttpStatus.OK).body("funcionario alterado com sucesso");
 		}
 	}
- */
+ 
 }
